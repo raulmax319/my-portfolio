@@ -1,12 +1,7 @@
 import React from 'react';
 
 import { GlobalStyles, Container } from '../styles';
-import { BackToTopBtn, Navbar } from '../components';
-import { HomeSection, AboutSection, SkillsSection } from '../sections';
-
-import data from '../assets/data/data';
-
-const { socialLinks, cvLink, thingsList } = data;
+import { BackToTopBtn } from '../components';
 
 export default function Home() {
   return (
@@ -14,10 +9,7 @@ export default function Home() {
       <GlobalStyles />
       <BackToTopBtn />
       <Container>
-        <Navbar />
-        <HomeSection socialLinks={socialLinks} />
-        <AboutSection cvLink={cvLink} list={thingsList} />
-        {/* <SkillsSection /> */}
+        <h1>Hello World</h1>
       </Container>
     </>
   );

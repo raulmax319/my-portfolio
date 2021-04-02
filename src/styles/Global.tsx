@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
   html {
     align-items: center;
     height: 100vh;
-    background: #fff;
+    background: #f5f5f5;
     justify-content: center;
     text-rendering: optimizeLegibility;
   }
